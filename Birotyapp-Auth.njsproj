@@ -29,11 +29,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".env" />
     <Content Include="app.js" />
     <Content Include="configs\passport.js" />
     <Content Include="controllers\authentication.js" />
     <Content Include="models\db.js" />
     <Content Include="models\users.js" />
+    <None Include="Properties\PublishProfiles\Birotyapp-Auth2 - Web Deploy.pubxml" />
     <Content Include="routes\index.js" />
     <Content Include="routes\users.js" />
     <Content Include="package.json" />
@@ -47,6 +49,8 @@
     <Folder Include="models\" />
     <Folder Include="configs\" />
     <Folder Include="controllers\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
